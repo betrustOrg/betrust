@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		555A99CE20D0FBED002E6534 /* UserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 555A99CC20D0FBED002E6534 /* UserService.m */; };
+		555A99D020D108D3002E6534 /* ValidationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 555A99CF20D108D3002E6534 /* ValidationService.m */; };
 		559EEAA120D0C36800688A6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 559EEAA020D0C36800688A6B /* AppDelegate.m */; };
 		559EEAA420D0C36800688A6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559EEAA320D0C36800688A6B /* ViewController.m */; };
 		559EEAA720D0C36800688A6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559EEAA520D0C36800688A6B /* Main.storyboard */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		555A99CC20D0FBED002E6534 /* UserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserService.m; sourceTree = "<group>"; };
+		555A99CD20D0FBED002E6534 /* UserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserService.h; sourceTree = "<group>"; };
+		555A99CF20D108D3002E6534 /* ValidationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidationService.m; sourceTree = "<group>"; };
+		555A99D120D108F7002E6534 /* ValidationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidationService.h; sourceTree = "<group>"; };
 		559EEA9C20D0C36800688A6B /* betrust.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = betrust.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		559EEA9F20D0C36800688A6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		559EEAA020D0C36800688A6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +84,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		555A99CB20D0FBED002E6534 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				555A99CC20D0FBED002E6534 /* UserService.m */,
+				555A99CD20D0FBED002E6534 /* UserService.h */,
+				555A99D120D108F7002E6534 /* ValidationService.h */,
+				555A99CF20D108D3002E6534 /* ValidationService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		559EEA9320D0C36800688A6B = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +121,7 @@
 				559EEA9F20D0C36800688A6B /* AppDelegate.h */,
 				559EEAA020D0C36800688A6B /* AppDelegate.m */,
 				559EEAA220D0C36800688A6B /* ViewController.h */,
+				555A99CB20D0FBED002E6534 /* Service */,
 				559EEAA320D0C36800688A6B /* ViewController.m */,
 				559EEAA520D0C36800688A6B /* Main.storyboard */,
 				559EEAA820D0C36A00688A6B /* Assets.xcassets */,
@@ -262,9 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				555A99CE20D0FBED002E6534 /* UserService.m in Sources */,
 				559EEAA420D0C36800688A6B /* ViewController.m in Sources */,
 				559EEAAF20D0C36A00688A6B /* main.m in Sources */,
 				559EEAA120D0C36800688A6B /* AppDelegate.m in Sources */,
+				555A99D020D108D3002E6534 /* ValidationService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
