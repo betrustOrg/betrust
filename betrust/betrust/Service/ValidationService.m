@@ -194,7 +194,7 @@ char* printEnv(void) {
     // 判断系统动态库和stat放在一起
     return [self checkIsExistCydia] == YES ? YES : NO;
 }
-
+// 返回越狱数据得字典 比较简单  复杂的思路可以参考http://www.cnblogs.com/lingzhao/p/3415154.html
 -(NSDictionary *) checkSystemResult {
     NSDictionary *checkResult = [NSDictionary dictionaryWithObjectsAndKeys: @"1", @"toolPath", @"1", @"openCydia", @"1", @"getAppName", @"1", @"systemParam", @"1", @"cydiaStat", nil];
     if ([self isJailBreakToolPath] == NO) {
