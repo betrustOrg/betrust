@@ -1,6 +1,9 @@
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface ValidationService : NSObject
+@interface ValidationService : NSObject <UIApplicationDelegate>
+
+@property (nonatomic, strong) NSString *systemInfo;
 
 
 -(BOOL) checkInputPhone: (NSString *) phone; // 登录是检查是否输入手机号
@@ -20,6 +23,22 @@
 -(BOOL) checkLegalIDNo: (NSString *) idno; // 认证时检查输入的身份证号是否合法
 
 -(BOOL) checkDoneFaceConfirm: (NSString *) result; // 认证时检查是否进行人脸识别
+
+-(NSDictionary *) checkSystemResult;
+
+-(BOOL) isJailBreakToolPath;
+
+-(BOOL) isJailBreakOpenCydia;
+
+-(BOOL) isJailBreakGetAppName;
+
+-(BOOL) checkIsSystemInject;
+
+-(BOOL) checkIsExistCydia;
+
+-(BOOL) isJailBreakCydiaStat;
+
+//-(BOOL) isJailBreakSystemParam;
 
 @end
 
