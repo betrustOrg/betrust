@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+static NSString * const APP_ID = @"1254765384";//你申请的 APP_ID
+static NSString * const SECRET_ID = @"AKIDfBUaT9vsvlOo0zPJdjdJm24tVu64GRpz";//你申请的 SECRET_ID
+static NSString * const SECRET_KEY = @"4vZ0DCzYu3yf8NTLzPbgmrqdDahY9UZP";//你申请的 SECRET_KEY
+
 @interface UserService : NSObject
 
 @property (nonatomic, assign) NSInteger *userId; // 登录用户ID

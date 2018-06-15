@@ -17,7 +17,7 @@
 		559EEAAF20D0C36A00688A6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 559EEAAE20D0C36A00688A6B /* main.m */; };
 		559EEAB920D0C36A00688A6B /* betrustTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 559EEAB820D0C36A00688A6B /* betrustTests.m */; };
 		559EEAC420D0C36A00688A6B /* betrustUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 559EEAC320D0C36A00688A6B /* betrustUITests.m */; };
-		55F337B820D3659F005E5861 /* FaceVerifyIdPaaSLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F337B720D3659F005E5861 /* FaceVerifyIdPaaSLib.framework */; };
+		55F337BD20D3983D005E5861 /* FaceVerifyIdPaaSLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F337B720D3659F005E5861 /* FaceVerifyIdPaaSLib.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55F337B820D3659F005E5861 /* FaceVerifyIdPaaSLib.framework in Frameworks */,
+				55F337BD20D3983D005E5861 /* FaceVerifyIdPaaSLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,11 +101,11 @@
 		559EEA9320D0C36800688A6B = {
 			isa = PBXGroup;
 			children = (
-				55F337B720D3659F005E5861 /* FaceVerifyIdPaaSLib.framework */,
 				559EEA9E20D0C36800688A6B /* betrust */,
 				559EEAB720D0C36A00688A6B /* betrustTests */,
 				559EEAC220D0C36A00688A6B /* betrustUITests */,
 				559EEA9D20D0C36800688A6B /* Products */,
+				55F337BB20D397FC005E5861 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,6 +152,14 @@
 				559EEAC520D0C36A00688A6B /* Info.plist */,
 			);
 			path = betrustUITests;
+			sourceTree = "<group>";
+		};
+		55F337BB20D397FC005E5861 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55F337B720D3659F005E5861 /* FaceVerifyIdPaaSLib.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -468,9 +476,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NEW_SETTING = "";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = ninety.betrust;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Debug;
 		};
@@ -489,9 +500,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NEW_SETTING = "";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = ninety.betrust;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Release;
 		};
