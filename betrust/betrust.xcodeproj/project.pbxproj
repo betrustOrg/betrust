@@ -17,6 +17,7 @@
 		559EEAAF20D0C36A00688A6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 559EEAAE20D0C36A00688A6B /* main.m */; };
 		559EEAB920D0C36A00688A6B /* betrustTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 559EEAB820D0C36A00688A6B /* betrustTests.m */; };
 		559EEAC420D0C36A00688A6B /* betrustUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 559EEAC320D0C36A00688A6B /* betrustUITests.m */; };
+		55F337B820D3659F005E5861 /* FaceVerifyIdPaaSLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F337B720D3659F005E5861 /* FaceVerifyIdPaaSLib.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		559EEABF20D0C36A00688A6B /* betrustUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = betrustUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		559EEAC320D0C36A00688A6B /* betrustUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = betrustUITests.m; sourceTree = "<group>"; };
 		559EEAC520D0C36A00688A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55F337B720D3659F005E5861 /* FaceVerifyIdPaaSLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FaceVerifyIdPaaSLib.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F337B820D3659F005E5861 /* FaceVerifyIdPaaSLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +101,7 @@
 		559EEA9320D0C36800688A6B = {
 			isa = PBXGroup;
 			children = (
+				55F337B720D3659F005E5861 /* FaceVerifyIdPaaSLib.framework */,
 				559EEA9E20D0C36800688A6B /* betrust */,
 				559EEAB720D0C36A00688A6B /* betrustTests */,
 				559EEAC220D0C36A00688A6B /* betrustUITests */,
@@ -454,6 +458,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = betrust/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -471,6 +479,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = betrust/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
