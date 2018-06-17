@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DAA5F6320D673BC0049D80E /* FaceVerifyIdPaaSLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAA5F6220D673BC0049D80E /* FaceVerifyIdPaaSLib.framework */; };
+		2DAA5F6520D676100049D80E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAA5F6420D676100049D80E /* libz.tbd */; };
 		555A99CE20D0FBED002E6534 /* UserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 555A99CC20D0FBED002E6534 /* UserService.m */; };
 		555A99D020D108D3002E6534 /* ValidationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 555A99CF20D108D3002E6534 /* ValidationService.m */; };
 		559EEAA120D0C36800688A6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 559EEAA020D0C36800688A6B /* AppDelegate.m */; };
@@ -17,7 +19,7 @@
 		559EEAAF20D0C36A00688A6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 559EEAAE20D0C36A00688A6B /* main.m */; };
 		559EEAB920D0C36A00688A6B /* betrustTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 559EEAB820D0C36A00688A6B /* betrustTests.m */; };
 		559EEAC420D0C36A00688A6B /* betrustUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 559EEAC320D0C36A00688A6B /* betrustUITests.m */; };
-		55F337BD20D3983D005E5861 /* FaceVerifyIdPaaSLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F337B720D3659F005E5861 /* FaceVerifyIdPaaSLib.framework */; };
+		D20D765AC18CC297A026146A /* libPods-betrust.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25DA16554CBB34669EEDD543 /* libPods-betrust.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25DA16554CBB34669EEDD543 /* libPods-betrust.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-betrust.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DAA5F6220D673BC0049D80E /* FaceVerifyIdPaaSLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FaceVerifyIdPaaSLib.framework; sourceTree = "<group>"; };
+		2DAA5F6420D676100049D80E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		55243C3000E7CC18E0C1E44E /* Pods-betrust.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-betrust.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-betrust/Pods-betrust.debug.xcconfig"; sourceTree = "<group>"; };
 		555A99CC20D0FBED002E6534 /* UserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserService.m; sourceTree = "<group>"; };
 		555A99CD20D0FBED002E6534 /* UserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserService.h; sourceTree = "<group>"; };
 		555A99CF20D108D3002E6534 /* ValidationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidationService.m; sourceTree = "<group>"; };
@@ -58,7 +64,7 @@
 		559EEABF20D0C36A00688A6B /* betrustUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = betrustUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		559EEAC320D0C36A00688A6B /* betrustUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = betrustUITests.m; sourceTree = "<group>"; };
 		559EEAC520D0C36A00688A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		55F337B720D3659F005E5861 /* FaceVerifyIdPaaSLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FaceVerifyIdPaaSLib.framework; sourceTree = "<group>"; };
+		64E9D7B6DFACD246DA535367 /* Pods-betrust.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-betrust.release.xcconfig"; path = "../Pods/Target Support Files/Pods-betrust/Pods-betrust.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +72,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55F337BD20D3983D005E5861 /* FaceVerifyIdPaaSLib.framework in Frameworks */,
+				2DAA5F6520D676100049D80E /* libz.tbd in Frameworks */,
+				2DAA5F6320D673BC0049D80E /* FaceVerifyIdPaaSLib.framework in Frameworks */,
+				D20D765AC18CC297A026146A /* libPods-betrust.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,8 +98,8 @@
 		555A99CB20D0FBED002E6534 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				555A99CC20D0FBED002E6534 /* UserService.m */,
 				555A99CD20D0FBED002E6534 /* UserService.h */,
+				555A99CC20D0FBED002E6534 /* UserService.m */,
 				555A99D120D108F7002E6534 /* ValidationService.h */,
 				555A99CF20D108D3002E6534 /* ValidationService.m */,
 			);
@@ -106,6 +114,7 @@
 				559EEAC220D0C36A00688A6B /* betrustUITests */,
 				559EEA9D20D0C36800688A6B /* Products */,
 				55F337BB20D397FC005E5861 /* Frameworks */,
+				C8C9FF354A264ED4B6491D75 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,10 +131,10 @@
 		559EEA9E20D0C36800688A6B /* betrust */ = {
 			isa = PBXGroup;
 			children = (
+				555A99CB20D0FBED002E6534 /* Service */,
 				559EEA9F20D0C36800688A6B /* AppDelegate.h */,
 				559EEAA020D0C36800688A6B /* AppDelegate.m */,
 				559EEAA220D0C36800688A6B /* ViewController.h */,
-				555A99CB20D0FBED002E6534 /* Service */,
 				559EEAA320D0C36800688A6B /* ViewController.m */,
 				559EEAA520D0C36800688A6B /* Main.storyboard */,
 				559EEAA820D0C36A00688A6B /* Assets.xcassets */,
@@ -157,9 +166,20 @@
 		55F337BB20D397FC005E5861 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				55F337B720D3659F005E5861 /* FaceVerifyIdPaaSLib.framework */,
+				2DAA5F6420D676100049D80E /* libz.tbd */,
+				2DAA5F6220D673BC0049D80E /* FaceVerifyIdPaaSLib.framework */,
+				25DA16554CBB34669EEDD543 /* libPods-betrust.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8C9FF354A264ED4B6491D75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55243C3000E7CC18E0C1E44E /* Pods-betrust.debug.xcconfig */,
+				64E9D7B6DFACD246DA535367 /* Pods-betrust.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +189,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 559EEAC820D0C36A00688A6B /* Build configuration list for PBXNativeTarget "betrust" */;
 			buildPhases = (
+				5CB135AC776F7172D3A6AFE4 /* [CP] Check Pods Manifest.lock */,
 				559EEA9820D0C36800688A6B /* Sources */,
 				559EEA9920D0C36800688A6B /* Frameworks */,
 				559EEA9A20D0C36800688A6B /* Resources */,
@@ -286,6 +307,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CB135AC776F7172D3A6AFE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-betrust-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		559EEA9820D0C36800688A6B /* Sources */ = {
@@ -463,9 +505,11 @@
 		};
 		559EEAC920D0C36A00688A6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55243C3000E7CC18E0C1E44E /* Pods-betrust.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EWA2ZXUT77;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -475,21 +519,27 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				NEW_SETTING = "";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = ninety.betrust;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = "arm64 armv7";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
 		559EEACA20D0C36A00688A6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64E9D7B6DFACD246DA535367 /* Pods-betrust.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EWA2ZXUT77;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -500,12 +550,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				NEW_SETTING = "";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = ninety.betrust;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = "arm64 armv7";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
