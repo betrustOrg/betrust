@@ -1,0 +1,1 @@
+../../../../WBKit/WBKit/WBViews/WBCaptureView/WBCaptureView.h

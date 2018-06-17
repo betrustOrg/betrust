@@ -1,0 +1,30 @@
+{
+  "name": "WBKit",
+  "version": "0.1.0",
+  "summary": "A short description of WBKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Benny-Wang-inBeijing/WBKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Benny-Wang-inBeijing": "blockwang@sina.cn"
+  },
+  "source": {
+    "git": "https://github.com/Benny-Wang-inBeijing/WBKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "public_header_files": [
+    "WBKit/WBKit.h",
+    "WBKit/**/*.h"
+  ],
+  "source_files": [
+    "WBKit/WBKit.h",
+    "WBKit/**/*"
+  ],
+  "resources": "WBKit/**/*.{plist,xib,lproj}"
+}

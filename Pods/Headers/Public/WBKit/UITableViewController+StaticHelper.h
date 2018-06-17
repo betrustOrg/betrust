@@ -1,0 +1,1 @@
+../../../../WBKit/WBKit/WBCatogory/UI+/WBStaticTableViewHelper/UITableViewController+StaticHelper.h

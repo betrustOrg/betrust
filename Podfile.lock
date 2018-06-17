@@ -19,12 +19,14 @@ PODS:
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
+  - WBKit (0.1.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
   - MBProgressHUD (~> 1.0.0)
   - PureLayout (~> 3.0.0)
   - SDWebImage (~> 3.8.2)
+  - WBKit (from `WBKit`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -33,12 +35,17 @@ SPEC REPOS:
     - PureLayout
     - SDWebImage
 
+EXTERNAL SOURCES:
+  WBKit:
+    :path: WBKit
+
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  WBKit: a12c46ccfb980f099dfc2a5a0da5879308bef2d5
 
-PODFILE CHECKSUM: 7e5ec7d268e80f460a5e1ee1ec6aa827e8c62abc
+PODFILE CHECKSUM: 15cb096f73e8acedfa36b7de40482d523feb2de8
 
 COCOAPODS: 1.5.0
