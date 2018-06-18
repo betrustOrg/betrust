@@ -4,7 +4,7 @@
 - 参数
 - 无
 
-返回值
+-返回值
 {
     "error_code":0,
     "message":"",
@@ -60,7 +60,7 @@
 - nonceStr:String | 随机数,6位中英文混合 | 必填
 - country_code:String | 国家编号 | 必填
 
-- 返回值
+-返回值
  {
     "error_code":0,
     "message":"",
@@ -78,7 +78,7 @@
 - country_code:String | 国家编号 | 必填
 
 - 返回值
--{
+{
     "error_code":0,
     "message":"",
     "data":{
